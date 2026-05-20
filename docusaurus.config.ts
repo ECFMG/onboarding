@@ -11,11 +11,11 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://intealth-onboarding.github.io',
-  baseUrl: '/Onboarding/',
+  url: 'https://ecfmg.github.io/',
+  baseUrl: '/onboarding/',
 
-  organizationName: 'Intealth-Onboarding',
-  projectName: 'Onboarding',
+  organizationName: 'ECFMG',
+  projectName: 'onboarding',
 
   onBrokenLinks: 'throw',
 
