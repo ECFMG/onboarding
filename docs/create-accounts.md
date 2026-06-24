@@ -75,13 +75,18 @@ Signing up for SonarCloud helps ensure your code meets quality and security stan
 
 ## O’Reilly Learning Platform (required for co-ops)
 
-You can access O’Reilly’s books for free.
+You can access O’Reilly’s books for free. **(Free for CO-OPs only)**
 
 - [Drexel’s Link to O’Reilly Learning](http://ezproxy2.library.drexel.edu/login?url=https://www.safaribooksonline.com/library/view/temporary-access/?orpq&email=%5Eu)  
   *(use an incognito browser)*
 
 - [Library Access (oreilly.com)](https://www.oreilly.com/library-access/) *(alternative)*
 
-- Choose **email** as the authentication method  
+- Choose **email** as the authentication method
 
-**(Free for CO-OPs only)**
+---
+
+## Professional Profile Setup
+
+- [GitHub Handle / LinkedIn URL](./github-linkedin-url.md)
+- [GitHub / LinkedIn Profile Image](./github-linkedin-profile-image.md)

@@ -11,8 +11,6 @@ title: Programming Languages
 - [Technical Documentation](https://www.typescriptlang.org/docs/)  
 - [TypeScript Intro](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
 
----
-
 ## Coding General
 
 - [Introduction to GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/github-for-beginners-essential-features-of-github-copilot/)
