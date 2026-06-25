@@ -3,6 +3,7 @@ id: macbook-pro-setup
 title: Macbook Pro Setup
 ---
 
+
 ## Prior to Start Date
 
 - Accounts (complete before your start date)
@@ -392,6 +393,7 @@ dotnet --list-runtimes
 java --version
 ```
 
+&nbsp;
 # 5 - Install VSCode / Azure Tools
 
 #### 1. Install Azure Functions Core Tools v4
@@ -417,6 +419,7 @@ brew update && brew install azure-cli
 
 #### 4. Launch VS Code
 
+&nbsp;
 # 6 - Install and configure extensions for VSCode
 1. GitHub Copilot (can use pre-release version - should already be installed)
 
@@ -486,9 +489,11 @@ Right click on the vertical menubar and select “Move Primary Sidebar Right”
 
 Right click on Sourcery on vertical menubar and select “Move to Secondary Sidebar” - login (choose login with GitHub)
 
+&nbsp;
 # 7 - Maximize Screen Resolution
 Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show Resolutions as a list → Choose the highest resolution that your eyes can handle without excessive strain. (more code on the screen at once = higher productivity)
 
+&nbsp;
 # 8 - optional - Install VPN 
 <u>(optional - only if directed to do so)</u>
 
@@ -518,7 +523,8 @@ Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show
 
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. Should put into disk image - [see here for info](https://eshop.macsales.com/blog/63564-how-to-create-a-disk-image-dmg-for-storage-in-macos/)
 
-# 9 - optional - Install VPN 
+&nbsp;
+# 9 - Rename Macbook
 <u>(only required if brand new Macbook Pro is Provided by Intealth)</u>
 
 &nbsp;
