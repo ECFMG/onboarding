@@ -494,7 +494,7 @@ Right click on Sourcery on vertical menubar and select “Move to Secondary Side
 Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show Resolutions as a list → Choose the highest resolution that your eyes can handle without excessive strain. (more code on the screen at once = higher productivity)
 
 &nbsp;
-# 8 - optional - Install VPN 
+# 8 - Install VPN
 <u>(optional - only if directed to do so)</u>
 
 1. Ensure OneDrive is synced
@@ -503,11 +503,9 @@ Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. [Download AnyConnect VPN](https://ecfmg1.sharepoint.com/:f:/r/sites/ConnectedApps/Shared%20Documents/CXA-UX%20and%20Dev/administrative/vpn/cisco-secure-client-2026?csf=1&web=1&e=ecFMBS)
 
-3. 
+3. Launch the AnyConnect.pkg installer
 
-4. Launch the AnyConnect.pkg installer
-
-5. Connect using IntealthOkta
+4. Connect using IntealthOkta
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. You'll only use this to either submit a timesheet or access the ticketing system, other than that please do not connect to the VPN, be sure to have no other applications using the network when you're on the VPN (e.g. Spotify) and disconnect as soon as you're done.
 >
@@ -517,13 +515,24 @@ Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. choose Oktaverify push
 
-6. DO NOT CHOOSE ANY OPTIONS OTHER THAN VPN
+5. DO NOT CHOOSE ANY OPTIONS OTHER THAN VPN
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. If install goes sideways
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. `sudo pkgutil --forget com.cisco.pkg.anyconnect.vpn`
+>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. Should put into disk image - [see here for info](https://eshop.macsales.com/blog/..63564-how-to-create-a-disk-image-dmg-for-storage-in-macos/)
+&nbsp;
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. Should put into disk image - [see here for info](https://eshop.macsales.com/blog/63564-how-to-create-a-disk-image-dmg-for-storage-in-macos/)
+
+&nbsp;
+6. Please Enable **AnyConnect VPN Service**
+
+`System Settings -> General -> Login Items`
+
+![Allow Cisco AnyConnect](/img/allow-cisco-anyconnect.png)
+
+
 
 &nbsp;
 # 9 - Rename Macbook
@@ -543,6 +552,8 @@ Select the Name and update it using this pattern: HQ-MAC-`<serial number>`
 
 ![Mac Update Name](/img/macbook-update-name.png)
 
-# 10 Enroll Mac With InTune
+
+&nbsp;
+# 10 - Enroll Mac With InTune
 
 [Intune Documentation](https://ecfmg1-my.sharepoint.com/:w:/g/personal/rsiwinski_ecfmg_org/Eei9jOoPmzVJgHYKBIlcvWABbnDi65Z-Ga5ilr86el91Sg?e=KFXewI&wdExp=TEAMS-TREATMENT&web=1&TeamsCID=7a1f0ca5-a7c8-4c29-b173-b79e5ca46893&linkOpenTime=1782306383961)
