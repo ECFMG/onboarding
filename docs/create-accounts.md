@@ -19,8 +19,8 @@ If you don’t have one already, sign up for a **free** GitHub account.
 >  
 > *(Using your personal GitHub account is OK. You’ll be contributing to open-source projects, and this becomes part of your professional profile — which should help when looking for a job after graduation.)*
 
-- [Advice in choosing your GitHub Handle](https://www.notion.so/GitHub-Handle-LinkedIn-URL-2f7c973c93d1807ebd0cc01496335109?pvs=21)
-- [Advice in choosing your profile image for GitHub](https://www.notion.so/GitHub-LinkedIn-Profile-Image-2f7c973c93d18021a6addaf8b4edeba0?pvs=21)
+- [Advice in choosing your GitHub Handle](./github-linkedin-url.md)
+- [Advice in choosing your profile image for GitHub](./github-linkedin-profile-image.md)
 - [GitHub Account Sign Up](https://github.com/signup)
 
 ---
@@ -83,10 +83,3 @@ You can access O’Reilly’s books for free. **(Free for CO-OPs only)**
 - [Library Access (oreilly.com)](https://www.oreilly.com/library-access/) *(alternative)*
 
 - Choose **email** as the authentication method
-
----
-
-## Professional Profile Setup
-
-- [GitHub Handle / LinkedIn URL](./github-linkedin-url.md)
-- [GitHub / LinkedIn Profile Image](./github-linkedin-profile-image.md)

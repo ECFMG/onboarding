@@ -503,9 +503,11 @@ Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. [Download AnyConnect VPN](https://ecfmg1.sharepoint.com/:f:/r/sites/ConnectedApps/Shared%20Documents/CXA-UX%20and%20Dev/administrative/vpn/cisco-secure-client-2026?csf=1&web=1&e=ecFMBS)
 
-3. Launch the AnyConnect.pkg installer
+3. 
 
-4. Connect using IntealthOkta
+4. Launch the AnyConnect.pkg installer
+
+5. Connect using IntealthOkta
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. You'll only use this to either submit a timesheet or access the ticketing system, other than that please do not connect to the VPN, be sure to have no other applications using the network when you're on the VPN (e.g. Spotify) and disconnect as soon as you're done.
 >
@@ -515,7 +517,7 @@ Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. choose Oktaverify push
 
-5. DO NOT CHOOSE ANY OPTIONS OTHER THAN VPN
+6. DO NOT CHOOSE ANY OPTIONS OTHER THAN VPN
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. If install goes sideways
 >
