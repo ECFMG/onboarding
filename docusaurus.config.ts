@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Intealth',
   tagline: 'Intealth co-op onboarding',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   future: {
     v4: true,
@@ -18,6 +18,30 @@ const config: Config = {
   projectName: 'onboarding',
 
   onBrokenLinks: 'throw',
+
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+  ],
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Poppins:wght@600&display=swap',
+      type: 'text/css',
+    },
+  ],
 
   i18n: {
     defaultLocale: 'en',
@@ -43,10 +67,14 @@ const config: Config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      respectPrefersColorScheme: true,
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Intealth',
+      logo: {
+        alt: 'Intealth',
+        src: 'img/banner-transparent.png',
+      },
       items: [
         {
           type: 'docSidebar',

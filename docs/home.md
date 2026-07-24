@@ -13,7 +13,7 @@ Intealth has a long history of working with Drexel co-ops, and several staff mem
 Learn about the co-op experience at Intealth.
 
 - [🏠 Introduction to Intealth](./introduction-to-intealth)
-- [🤖 Digital Transformation](./digital-transformation)
+- [🤖 Digital Transformation](./digital-transformations)
 - [🎯 Expectations](./expectations)
 - [🖥️ Modern Apps](./modern-apps)
 - [📚 CO-OP Alumni](./coop-alumni)

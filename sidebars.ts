@@ -8,7 +8,7 @@ const sidebars: SidebarsConfig = {
       label: 'Modern App Team Intro',
       items: [
         'introduction-to-intealth',
-        'digital-transformation',
+        'digital-transformations',
         'expectations',
         {
           type: 'category',
