@@ -195,7 +195,7 @@ delegated to subagents.
 
 ## PROJECT CONTEXT
 
-Docusarous monorepo (onboarding): Node.js v22, TypeScript strict, npm + docusarous + yarn
+Docusaurus monorepo (onboarding): Node.js v22, TypeScript strict, npm + Docusaurus + yarn
 
 Key commands: `yarn start`, `yarn run build`, `npm i`. Agents must manage the
 development server lifecycle; the user will not run the start command manually.

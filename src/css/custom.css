@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Poppins:wght@600&display=swap');
-
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
 :root {
   /* Intealth color tokens */
   --intealth-color-primary: #3f4373;
@@ -15,7 +18,7 @@
   --intealth-color-copper-red: #ce724f;
   --intealth-color-kobe: #862e1b;
   --intealth-color-linen: #f8efe3;
-  --intealth-color-timberwold: #e1dad0;
+  --intealth-color-timberwolf: #e1dad0;
   --intealth-color-pale-silver: #c5c0b6;
   --intealth-color-grullo: #a59080;
   --intealth-color-lavender-gray: #d5d0da;
@@ -485,11 +488,11 @@ main .container,
 }
 
 /* Category links inside collapsibles have their link background reset by Docusaurus.
-   Apply the selected treatment to the collapsible container instead. */
-.navbar-sidebar .menu__list-item-collapsible:has(> .menu__link--active[aria-current="page"]),
-.theme-doc-sidebar-menu .menu__list-item-collapsible:has(> .menu__link--active[aria-current="page"]),
-.navbar-sidebar .menu__list-item-collapsible:has(> .menu__link--active[aria-current="page"]):hover,
-.theme-doc-sidebar-menu .menu__list-item-collapsible:has(> .menu__link--active[aria-current="page"]):hover {
+   Apply the selected treatment directly to the active category link. */
+.navbar-sidebar .menu__list-item-collapsible > .menu__link--active[aria-current="page"],
+.theme-doc-sidebar-menu .menu__list-item-collapsible > .menu__link--active[aria-current="page"],
+.navbar-sidebar .menu__list-item-collapsible > .menu__link--active[aria-current="page"]:hover,
+.theme-doc-sidebar-menu .menu__list-item-collapsible > .menu__link--active[aria-current="page"]:hover {
   background-color: var(--intealth-color-menu-selected-bg);
 }
 
@@ -700,13 +703,8 @@ main .container {
 }
 
 /* Do not reserve a previous-page column when only a next page exists. */
-.pagination-nav:not(:has(.pagination-nav__link--prev)) {
-  grid-template-columns: 1fr;
-}
-
-.pagination-nav:not(:has(.pagination-nav__link--prev))
-  .pagination-nav__link--next {
-  grid-column: 1;
+.pagination-nav__link--next:only-child {
+  grid-column: 1 / -1;
 }
 
 .pagination-nav__link {

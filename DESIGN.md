@@ -20,7 +20,7 @@ colors:
   kobe: "#862E1B"
   
   linen: "#F8EFE3"
-  timberwold: "#E1DAD0"
+  timberwolf: "#E1DAD0"
   pale-silver: "#C5C0B6"
   grullo: "#A59080"
   
@@ -775,7 +775,7 @@ This file is the canonical source of truth for the CXA visual language. The fron
 | Copper Red | `#CE724F` | `colors.copper-red` | Muted warm accent for illustration or chart strokes |
 | Kobe | `#862E1B` | `colors.kobe` | Dark warm contrast color for accent-on-accent surfaces |
 | Linen | `#F8EFE3` | `colors.linen` | Table header wash and soft surface tone |
-| Timberwold | `#E1DAD0` | `colors.timberwold` | Neutral beige border or background support |
+| Timberwolf | `#E1DAD0` | `colors.timberwolf` | Neutral beige border or background support |
 | Pale Silver | `#C5C0B6` | `colors.pale-silver` | Neutral mid-tone for understated separators |
 | Grullo | `#A59080` | `colors.grullo` | Muted brown-gray for labels or tertiary text |
 | Lavender Gray | `#D5D0DA` | `colors.border` | Default border color and primary neutral divider tone |

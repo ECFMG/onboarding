@@ -13,7 +13,7 @@ disable-model-invocation: false
 
 The agents own the application server lifecycle. Before auditing the rendered
 application, check whether port 3000 is reachable. If it is unavailable, start
-start the development server detached with `nohup yarn start >
+the development server detached with `nohup yarn start >
 /tmp/onboarding-docusaurus.log 2>&1 &`, wait up to 60 seconds for it to become
 ready, and reuse a healthy server instead of starting a duplicate. Never run
 `yarn start` in the foreground. If it does not become ready, inspect the log and
