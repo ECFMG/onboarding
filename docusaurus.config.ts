@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Intealth',
   tagline: 'Intealth co-op onboarding',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   future: {
     v4: true,
@@ -43,10 +43,14 @@ const config: Config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
+      disableSwitch: true,
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Intealth',
+      logo: {
+        alt: 'Intealth',
+        src: 'img/banner-transparent.png',
+      },
       items: [
         {
           type: 'docSidebar',

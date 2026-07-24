@@ -12,7 +12,7 @@ title: Macbook Pro Setup
   - Okta URL: https://ecfmg.okta.com
 
 
-# Prerequisites (On Start Date)
+## Prerequisites (On Start Date)
 
 > ⚠️ WARNING: DO NOT PERFORM STEPS OUT OF ORDER  
 > WE PERFORM THESE STEPS AS A TEAM. DO NOT DO THEM INDEPENDENTLY
@@ -22,7 +22,7 @@ title: Macbook Pro Setup
 - Message **Seven Thomas** (or Patrick Gidich if unavailable) on Teams when ready
 
 
-## General Notes
+### General Notes
 
 - **Patience**
   - Some parts will be boring or frustrating, but consistency across the team matters
@@ -39,7 +39,7 @@ title: Macbook Pro Setup
 > 📧 servicedesk@intealth.org
 
 
-## Register Password Reset
+### Register Password Reset
 
 Register your ability to reset your password here (from your personal laptop) 
 - Register the password reset verification method for a work or school account - Microsoft Support
@@ -52,7 +52,7 @@ Register your ability to reset your password here (from your personal laptop)
   - https://passwordreset.microsoftonline.com/
 
 
-## Password Requirements
+### Password Requirements
 
 - Password must be changed every 6 months
 - PASSWORDS CANNOT BE CHANGED MULTIPLE TIMES IN ONE DAY
@@ -78,7 +78,7 @@ Register your ability to reset your password here (from your personal laptop)
 
   
   &nbsp;&nbsp;&nbsp;&nbsp;
-# 1 - Start Up and Sign In
+## 1 - Start Up and Sign In
 
 1. Plug-in to power supply
 2. Start-up New Macbook Pro:
@@ -121,13 +121,13 @@ Register your ability to reset your password here (from your personal laptop)
    iii. Choose your look / Light Dark theme - `<whatever you want>`
 
 
-#### 1-B - Install Software Updates
+### 1-B - Install Software Updates
 
 1. Command+Space -> type & select "System Settings", General -> Software Update
 
    a. Update now
 
-#### 1-C If you happened to have skipped sign-in with your Apple ID earlier - add it now
+### 1-C If you happened to have skipped sign-in with your Apple ID earlier - add it now
 
 1. Command+Space -> type & select "System Settings" - Choose Sign in with Apple ID
   
@@ -135,7 +135,7 @@ Register your ability to reset your password here (from your personal laptop)
 
   &nbsp;&nbsp;&nbsp;&nbsp;
 
-# 2 - Partition Drive & Base Folder Structure:
+## 2 - Partition Drive & Base Folder Structure:
 
 1. Launch Disk Utility
 
@@ -170,7 +170,7 @@ Register your ability to reset your password here (from your personal laptop)
    &nbsp;&nbsp;&nbsp;&nbsp;i. *Under Locations, ensure Hard Disks is checked*
 
    &nbsp;&nbsp;&nbsp;&nbsp;
-# 3 - Install Chrome / Office / OneDrive / Git
+## 3 - Install Chrome / Office / OneDrive / Git
 
 1. Launch Safari
 
@@ -228,8 +228,8 @@ Bing too   if you feel like trying it out)
 
 
 &nbsp;
-# 4 - Install Git / Node / Runtime / Java
-#### 1. Install Apple Developer Command Line Tools (this will install GIT)
+## 4 - Install Git / Node / Runtime / Java
+### 1. Install Apple Developer Command Line Tools (this will install GIT)
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. Launch Terminal (command+space type Terminal), run following command (this takes a long time)
 
@@ -249,7 +249,7 @@ softwareupdate --install --all
 > &nbsp;&nbsp;&nbsp;&nbsp; d. Open System Settings, search for Software Update and check to see if the command line tools need to be updated
 
 &nbsp;
-#### 2. Add GitHub SSH Keys
+### 2. Add GitHub SSH Keys
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. Follow the instructions below <u><i>very carefully</i></u> (note your MacOS version is greater than 10.12)
 >
@@ -270,14 +270,14 @@ softwareupdate --install --all
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv. Use the pb-copy command for the key (with the .pub extension) and put into azure credentials (azure doesn't support the newer more secure SSH approach that GitHub requires)
 
 &nbsp;
-#### 3. Associate your @intealth.org email account to your GitHub Profile and validate your email
+### 3. Associate your @intealth.org email account to your GitHub Profile and validate your email
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. https://github.com/settings/emails
 >
 > &nbsp;&nbsp;&nbsp;&nbsp; b. (note you can add your corporate email to your personal GitHub account - it's a blended account)
 
 &nbsp;
-#### 4. Add your Git name/email (from Terminal)
+### 4. Add your Git name/email (from Terminal)
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. Launch Terminal - run the following commands (replace highlighted sections with your name/email) - this email should be configured in your GitHub verified emails (it can be either your personal or @intealth.org email)
 
@@ -287,7 +287,7 @@ git config --global user.email johndoe@example.com
 ```
 
 &nbsp;
-#### 5. Install MISE
+### 5. Install MISE
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. Install Homebrew (link)
 >
@@ -346,7 +346,7 @@ nvm install v22
 ```
 
 &nbsp;
-#### 7. Install the latest .NET Runtime - MacOS ARM-64
+### 7. Install the latest .NET Runtime - MacOS ARM-64
 
 > • Select the version marked as **(latest) / Long Term Support** from here:
 >
@@ -367,7 +367,7 @@ dotnet --list-runtimes
 ```
 
 &nbsp;
-#### 8. Install Java
+### 8. Install Java
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. Visit Adoptium (the source for open source and free version of Java)
 >
@@ -394,9 +394,9 @@ java --version
 ```
 
 &nbsp;
-# 5 - Install VSCode / Azure Tools
+## 5 - Install VSCode / Azure Tools
 
-#### 1. Install Azure Functions Core Tools v4
+### 1. Install Azure Functions Core Tools v4
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. Launch new Terminal window - run following commands:
 
@@ -405,11 +405,11 @@ brew tap azure/functions
 brew install azure-functions-core-tools@4
 ```
 
-#### 2. Install VSCode (link)
+### 2. Install VSCode (link)
 
 > Choose **Apple Silicon (zip)** <u>not</u> **INTEL** and copy the file within the zip archive to **Applications**
 
-#### 3. Install Azure CLI (link)
+### 3. Install Azure CLI (link)
 
 > &nbsp;&nbsp;&nbsp;&nbsp; a. Launch new Terminal window - run the following command:
 
@@ -417,10 +417,10 @@ brew install azure-functions-core-tools@4
 brew update && brew install azure-cli
 ```
 
-#### 4. Launch VS Code
+### 4. Launch VS Code
 
 &nbsp;
-# 6 - Install and configure extensions for VSCode
+## 6 - Install and configure extensions for VSCode
 1. GitHub Copilot (can use pre-release version - should already be installed)
 
 2. GitHub Copilot Chat (should already be installed)
@@ -490,11 +490,11 @@ Right click on the vertical menubar and select “Move Primary Sidebar Right”
 Right click on Sourcery on vertical menubar and select “Move to Secondary Sidebar” - login (choose login with GitHub)
 
 &nbsp;
-# 7 - Maximize Screen Resolution
+## 7 - Maximize Screen Resolution
 Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show Resolutions as a list → Choose the highest resolution that your eyes can handle without excessive strain. (more code on the screen at once = higher productivity)
 
 &nbsp;
-# 8 - Install VPN
+## 8 - Install VPN
 <u>(optional - only if directed to do so)</u>
 
 1. Ensure OneDrive is synced
@@ -535,7 +535,7 @@ Go to settings → Displays → (Scroll down) → Click Advanced → Enable Show
 
 
 &nbsp;
-# 9 - Rename Macbook
+## 9 - Rename Macbook
 <u>(only required if brand new Macbook Pro is Provided by Intealth)</u>
 
 &nbsp;
@@ -554,6 +554,6 @@ Select the Name and update it using this pattern: HQ-MAC-`<serial number>`
 
 
 &nbsp;
-# 10 - Enroll Mac With InTune
+## 10 - Enroll Mac With InTune
 
 [Intune Documentation](https://ecfmg1-my.sharepoint.com/:w:/g/personal/rsiwinski_ecfmg_org/Eei9jOoPmzVJgHYKBIlcvWABbnDi65Z-Ga5ilr86el91Sg?e=KFXewI&wdExp=TEAMS-TREATMENT&web=1&TeamsCID=7a1f0ca5-a7c8-4c29-b173-b79e5ca46893&linkOpenTime=1782306383961)

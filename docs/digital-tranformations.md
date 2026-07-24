@@ -1,5 +1,5 @@
 ---
-id: digital-transformation
+id: digital-transformations
 title: Digital Transformation
 ---
 
