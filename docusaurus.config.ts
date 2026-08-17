@@ -65,7 +65,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/intealth-social-card.jpg',
     colorMode: {
       disableSwitch: true,
       respectPrefersColorScheme: false,
