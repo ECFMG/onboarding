@@ -65,7 +65,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/intealth-social-card.jpg',
+    image: 'img/intealth-social-card.png',
     colorMode: {
       disableSwitch: true,
       respectPrefersColorScheme: false,
