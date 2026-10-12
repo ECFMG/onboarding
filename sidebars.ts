@@ -3,6 +3,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'home',
+    'interview',
     {
       type: 'category',
       label: 'Modern App Team Intro',
