@@ -64,6 +64,20 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/interview',
+            to: 'https://outlook.office.com/book/DrexelCoopSpringSummer2025ARoundInterviews@ecfmg1.onmicrosoft.com/?ismsaljsauthenabled',
+          },
+        ],
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/intealth-social-card.png',
     colorMode: {
