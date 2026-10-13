@@ -3,7 +3,11 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'home',
-    'interview',
+     {
+      type: 'link',
+      label: 'Interview',
+      href: 'https://outlook.office.com/book/DrexelCoopSpringSummer2025ARoundInterviews@ecfmg1.onmicrosoft.com/?ismsaljsauthenabled',
+    },
     {
       type: 'category',
       label: 'Modern App Team Intro',
