@@ -421,44 +421,17 @@ brew update && brew install azure-cli
 
 &nbsp;
 ## 6 - Install and configure extensions for VSCode
-1. GitHub Copilot (can use pre-release version - should already be installed)
 
-2. GitHub Copilot Chat (should already be installed)
+1. [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) (should already be installed)
 
-3. GitHub Pull Requests
+2. [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
-4. Azure Tools
+3. [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
 
-5. SonarQube for IDE (trust publisher)
-
-> &nbsp;&nbsp;&nbsp;&nbsp; a. Java Home
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Path to JRE (Java Runtime Environment)
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paste the following URL to access the settings: `vscode://settings/sonarlint.ls.javaHome`
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Example of value you should use: (note you need to ensure version is correct in path)
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `/Library/Java/JavaVirtualMachines/temurin-25.jre/Contents/Home`
+4. [SonarQube for IDE](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) (trust publisher)
 
 
-> &nbsp;&nbsp;&nbsp;&nbsp; b. Path to Node Executable
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paste the following URL to access the settings:
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `vscode://settings/sonarlint.pathToNodeExecutable`
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can get proper location by typing the following in a terminal prompt:
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `which node`
-
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Example of value you should use: (note you need to ensure username and version is correct in path)
-
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `/Users/patrick/.nvm/versions/node/v22.21.1/bin/node`
-
-
-> &nbsp;&nbsp;&nbsp;&nbsp; c. Add organization key to SonarQube Cloud settings for organization **ECFMG**
+> &nbsp;&nbsp;&nbsp;&nbsp; a. Add organization key to SonarQube Cloud settings for organization **ECFMG**
 
 ![SonarQube ECFMG Settings](/img/sonarqube-ecfmg-settings.png)
 
@@ -466,7 +439,7 @@ brew update && brew install azure-cli
 
 &nbsp;
 
-> &nbsp;&nbsp;&nbsp;&nbsp; d. Add organization key to SonarQube Clooud for organization **Simnova, LLC**
+> &nbsp;&nbsp;&nbsp;&nbsp; b. Add organization key to SonarQube Clooud for organization **Simnova, LLC**
 
 ![SonarQube Simnova Settings](/img/sonarqube-simnova-settings.png)
 
@@ -474,16 +447,16 @@ brew update && brew install azure-cli
 
 &nbsp;
 
-> &nbsp;&nbsp;&nbsp;&nbsp; e. Confirm Configuration:
+> &nbsp;&nbsp;&nbsp;&nbsp; c. Confirm Configuration:
 
 ![Confirm Configuration](/img/confirm-configuration.png)
 
-6. [Apollo GraphQL](https://marketplace.visualstudio.com/items?itemName=apollographql.vscode-apollo)
-7. [Azurite](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite)
-8. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-9. [Vitest Explorer](https://marketplace.visualstudio.com/items?itemName=vitest.explorer)
-10. [Sourcery](https://marketplace.visualstudio.com/items?itemName=sourcery.sourcery)
-11. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+5. [Apollo GraphQL](https://marketplace.visualstudio.com/items?itemName=apollographql.vscode-apollo)
+6. [Azurite](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite)
+7. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+8. [Vitest Explorer](https://marketplace.visualstudio.com/items?itemName=vitest.explorer)
+9. [Sourcery](https://marketplace.visualstudio.com/items?itemName=sourcery.sourcery)
+10. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 Right click on the vertical menubar and select “Move Primary Sidebar Right”
 
